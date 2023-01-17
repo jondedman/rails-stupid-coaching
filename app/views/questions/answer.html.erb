@@ -1,0 +1,25 @@
+
+
+
+
+<figure>
+  <blockquote class="blockquote">
+   <p> <%= @question %> </p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    You
+  </figcaption>
+</figure>
+
+<div class="answer">
+<figure>
+  <blockquote class="blockquote">
+   <p> <%= @answer %></p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    Your coach
+  </figcaption>
+</figure>
+</div>
+
+<%= link_to "Ask another question", ask_path %>
